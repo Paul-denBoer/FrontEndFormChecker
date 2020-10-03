@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Forms test</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="centerh1">
+                    <h1>Forms test</h1>
+                   
+                    </div>
+                </div>
+            </div>
+
+                <div class="container">
+                <div class="row">
+                <div class="col-sm-12">
+                    <span id="formemptyspan"></span>
+                    <form id="form" name="Accountform" onsubmit="return false">
+                <label for="FirstNameForm">Voornaam : </label>
+                <input type="text" name="FirstNameForm" placeholder="Voer hier uw voornaam in">
+                
+                </div>
+                </div>
+
+                <div class="row">
+                <div class="col-sm-12">
+                    <label for="LastNameForm">Achternaam : </label>
+                <input type="text" name="LastNameForm" placeholder="Voer hier uw achternaam in">
+                </div>
+                </div>
+
+                <div class="row">
+                <div class="col-sm-12">
+                    <label for="WoonplaatsForm">Woonplaats : </label>
+                <input type="text" name="WoonplaatsForm" placeholder="Voer hier uw woonplaats in">
+                </div>
+                </div>
+
+                <div class="row">
+                <div class="col-sm-12">
+                <label for="AgeForm">Leeftijd : </label>
+                <input type="number" id="age" name="AgeForm" placeholder="Voer hier uw leeftijd">
+                <span id="agespan"></span>
+                </div>
+                </div>
+
+                <div class="row">
+                <div class="col-sm-12">
+                <label for="Adres">Adres : </label>
+                <input type="text" name="AdresForm" placeholder="Voer hier uw straat in">
+                </div>
+                </div>
+
+                <div class="row">
+                <div class="col-sm-12">
+                <label for="huisnummer">Huisnummer : </label>
+                <input type="number" name="NumberForm" placeholder="Voer hier uw huisnummer in">
+                </div>
+                </div>
+
+                <div class="row">
+                <div class="col-sm-12">
+                <label for="AddOnForm">Toevoeging : </label>
+                <input type="text" name="AddOnForm" placeholder="Voer hier toevoeging van huisnummer in">
+                </div>
+                </div>
+
+                <div class="row">
+                <div class="col-sm-12">
+                <label for="UserNameForm">Gebruikersnaam : </label>
+                <input type="text" name="UserNameForm" placeholder="Kies hier een gebruikersnaam">
+                </div>
+                </div>
+
+                <div class="row">
+                <div class="col-sm-12">
+                <label for="PasswordForm">Wachtwoord : </label>
+                <input type="password" id="pass1" name="PasswordForm" placeholder="Kies hier een wachtwoord">
+                <span id="passspan"></span>
+                </div>
+                </div>
+
+                <div class="row">
+                <div class="col-sm-12">
+                <label for="PasswordCheckForm">Bevestig wachtwoord : </label>
+                <input type="password" id="pass2" name="PasswordCheckForm" placeholder="Voer nogmaals wachtwoord in">
+                </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <label for="checkbox"> Laat wachtwoord zien : </label>
+                        <input type="checkbox" id="checkbox" name="checkbox" onclick="Showpass()">
+                </div>
+                </div>
+
+                <div class="row">
+                <div class="col-sm-12">
+                <label for="EmailForm">E-mailadres : </label>
+                <input type="text" id="email1" name="EmailForm" placeholder="Voer uw e-mailadres in">
+                <span id="emailspan"></span>
+                </div>
+                </div>
+
+                <div class="row">
+                <div class="col-sm-12">
+                <label for="EmailFormCheckForm">Bevestig e-mailadres : </label>
+                <input type="text" id="email2" name="EmailFormCheckForm" placeholder="Voer nogmaals uw e-mailadres in">
+                </div>
+                </div>
+
+                <div class="row">
+                <div class="col-sm-12">
+                <button type="submit" onclick="validateForm()">Submit</button>
+                </div>
+                </div>
+                </div>
+                </div>
+            </form>
+
+
+
+            
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="script.js" async defer></script>
+    </body>
+</html>

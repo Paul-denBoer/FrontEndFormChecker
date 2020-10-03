@@ -1,0 +1,38 @@
+body {
+    background-color: cornflowerblue;
+}
+
+.centerh1 {
+    text-align: center;
+    color: cornsilk;
+    padding-bottom: 20px;
+    border-bottom: 2px dashed whitesmoke;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 25%;
+    margin-bottom: 10px;
+    position: relative;
+    
+}
+
+#checkbox {
+    transform: scale(2);
+}
+
+
+button {
+    width: 75%;
+}
+
+label {
+    font-size: large;
+    width: 50%;
+    text-align: left;
+}
+
+
+.ErrorBorder {
+    border: 2px solid red;
+}
